@@ -21,32 +21,25 @@ export const ABOUT_TEXT = {
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "Feb 2025 - Present",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "Freelancer",
+    description: `Currently working as a freelancer, I successfully completed a project for Aashita Technosoft, Jaipur, and am currently developing a community website for a Mini Militia gaming community for a Nigerian client.`,
+    technologies: ["JavaScript", "React.js", "Node.js", "MongoDB"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Sep 2024 - Feb 2025",
+    role: "Frontend Developer Intern",
+    company: "Plutonic Services",
+    description: `During my internship at a service-based startup, I developed an Employee Management System and a Campaign Sending System, fixed numerous bugs via Jira, and optimized API data, improving performance. I ensured timely delivery, going the extra mile to meet client deadlines.`,
+    technologies: ["JavaScript", "React.js", "Next.js", "Redux"],
+  },
+  {
+    year: "June 2024 - Aug 2024",
+    role: "Full Stack Developer Intern",
+    company: "RxR Perfumery",
+    description: `Developed a scalable e-commerce platform using the MERN stack, boosting customer engagement. Designed and optimized a highly responsive, web application that improved customer retention. Integrated payment gateway and order management features to enhance checkout efficiency and overall user experience.`,
+    technologies: ["JavaScript", "React.js", "Node.js", "MongoDB"],
   },
 ];
 
@@ -82,7 +75,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "BajheriMuzaffarnagar, India 251002 ",
+  address: "Bajheri Muzaffarnagar, India 251002 ",
   phoneNo: "+91 8929691406",
   email: "m.ahmad8929@gmail.com",
 };
