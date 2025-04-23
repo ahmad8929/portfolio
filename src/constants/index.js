@@ -9,7 +9,6 @@ export const HERO_CONTENT = {
   second: `I love solving real-world problems, optimizing performance, and creating seamless user experiences that not only look great but also drive real results. I'm always excited to take on new challenges and turn ideas into reality through clean, efficient code.`
 };
 
-// export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 export const ABOUT_TEXT = {
   first: `I am a passionate and versatile Full Stack Developer dedicated to building efficient, scalable, and user-centric web applications. I recently completed a 6-month intensive internship at Plutonic Services, where I gained valuable real-world experience working in agile teams and refining my skills in modern web development.`,
 
@@ -24,14 +23,14 @@ export const EXPERIENCES = [
     year: "Feb 2025 - Present",
     role: "Full Stack Developer",
     company: "Freelancer",
-    description: `Currently working as a freelancer, I successfully completed a project for Aashita Technosoft, Jaipur, and am currently developing a community website for a Mini Militia gaming community for a Nigerian client.`,
+    description: `Currently working as a freelancer, I successfully completed a project for Aashita Technosoft, Jaipur, and currently developing a community website for a Mini Militia gaming community for a Nigerian client.`,
     technologies: ["JavaScript", "React.js", "Node.js", "MongoDB"],
   },
   {
     year: "Sep 2024 - Feb 2025",
     role: "Frontend Developer Intern",
     company: "Plutonic Services",
-    description: `During my internship at a service-based startup, I developed an Employee Management System and a Campaign Sending System, fixed numerous bugs via Jira, and optimized API data, improving performance. I ensured timely delivery, going the extra mile to meet client deadlines.`,
+    description: `During my internship at a service-based startup, I developed an Employee Management System and a Campaign Sending System, fixed numerous bugs via Jira, and optimized API data, improving performance. I ensured timely delivery by proactively going the extra mile to meet client deadlines.`,
     technologies: ["JavaScript", "React.js", "Next.js", "Redux"],
   },
   {
@@ -45,32 +44,26 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Expense Tracker",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed a full-stack Expense Tracker application to help users manage and visualize their spending. Implemented user authentication, real-time expense updates, and dynamic data visualization.",
+    technologies: ["Tailwind", "JavaScript", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Notes Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a Notes Application with features like tagging, creating, editing, and deleting notes. Utilized LocalStorage for persistent data management and built a responsive, intuitive UI with React and TypeScript.",
+      technologies: ["TypeScript", "React", "CSS", "LocalStorage"],
+
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Designed and developed a personal portfolio website to showcase projects, skills, and experience. Built with React and Tailwind CSS, featuring a clean, responsive, and modern design optimized for all devices.",
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
 ];
 
